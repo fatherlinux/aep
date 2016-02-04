@@ -1,0 +1,3 @@
+
+Files
+project-openshift-infra.yaml - Just in case you delete your openshift-infra project by mistake, you can use this object file to recreate it correctly

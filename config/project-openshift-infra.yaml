@@ -1,0 +1,23 @@
+# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+
+apiVersion: v1
+kind: Project
+metadata:
+  annotations:
+    openshift.io/sa.scc.mcs: s0:c5,c0
+    openshift.io/sa.scc.supplemental-groups: 1000020000/10000
+    openshift.io/sa.scc.uid-range: 1000020000/10000
+  creationTimestamp: 2016-02-04T03:44:52Z
+  name: openshift-infra
+  resourceVersion: "125"
+  selfLink: /oapi/v1/projects/openshift-infra
+  uid: a62dce1b-caf1-11e5-913e-001a4afd2d0d
+spec:
+  finalizers:
+  - kubernetes
+  - openshift.io/origin
+status:
+  phase: Active
